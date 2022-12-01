@@ -4,9 +4,8 @@ surname: Pereira
 position: "Economista - CPA 20"
 phone: +55 53 99971 9859
 email: "mateus.mpereira@hotmail.com"
-website: https://github.com/m-pereira/my-blog
-github: m-pereira
-linkedin: linkedin.com/in/mateus-pereira-8a33512b
+github: "m-pereira"
+linkedin: "linkedin.com/in/mateus-pereira-8a33512b"
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::moderncv
 ---
@@ -34,16 +33,15 @@ library(ggplot2)
 
 
 # Perfil
-* Economista de formação e cientista de dados por destino. Acredita na filosofia *long life learning* e que a principal *soft skill* de *data science* é *storytelling*. Agnóstico  sobre ferramenta e linguagem para data science.
-
-# Habilidades 
+* Economista de formação e cientista de dados por destino. Acredita na filosofia *long life learning* e que a principal *soft skill* de *data science* é *storytelling*. Tenho alguns projetos pessoais que você pode acompanhar
+[clicando aqui.](https://m-pereira.github.io/my-blog/)
 
 ```{r}
 theme_set(theme_bw())
 my.df1 <- data.frame(c("R", "SQL", "Power BI","Python", "Cloud"), c(4.5,4.5,4,3.5,3.5))
 names(my.df1) <- c("Skill","Nivel")
 my.df1 <- my.df1[order(my.df1$Nivel), ]  # sort
-my.df2 <- data.frame(c("Séries temporais", "Supervisionado", "Não supervisionado","NLP", "Deep Learning"), c(4.5,4,4,3.5,3))
+my.df2 <- data.frame(c("Séries temporais", "Supervisionado", "Não supervisionado","NLP", "Deep Learning"), c(4.5,4.5,4.5,4,3.5))
 names(my.df2) <- c("Skill","Nivel")
 my.df2 <- my.df2[order(my.df2$Nivel), ]  # sort
 ```
